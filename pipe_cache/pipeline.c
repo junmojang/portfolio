@@ -267,7 +267,6 @@ void execute()
 	int SignExtImm = idex_latch[1].simm;
 	int BranchAddr = idex_latch[1].simm << 2;
 	int ZeroExtImm = idex_latch[1].imm;
-//	int imm = idex_latch[1].imm;
 
 	int ALUSrc = idex_latch[1].ALUSrc;
 	int RegDst = idex_latch[1].RegDst;
