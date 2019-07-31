@@ -1,0 +1,181 @@
+.aside-right input{
+    display: none;
+}
+.aside-right form{
+    display: inline-block;
+}
+input+label div, .btn_wrap .btn{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #096b9a;
+    font-size: 0.75em;
+    color: white;
+    font-weight: bold;
+
+}
+input+label div:hover, .btn_wrap .btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #096b9a;
+    border: 1px solid #096b9a;
+    transition: all .2s;
+}
+
+figure table{
+    border: 1px solid gray;
+    font-size: 1vw;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+figure table th{
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+figure table td{
+    border: 1px solid gray;
+    padding: 1em;
+}
+.post {
+    margin: auto;
+    height: auto;
+    color: black;
+    background: #fff;
+    border:1px solid #bbbbbb;
+    font-size: 24px;
+    display: block;
+    padding: 0 2em 0 2em;
+}
+.post .case {
+    border-bottom: solid 1px #bbbbbb;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.post .post_title {
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 1em;
+    padding: 8px 0 8px 0;
+}
+.post .post_info {
+    background-color: white;
+    font-size: 0.6em;
+}
+.post_info td {
+    width: 5em;
+    text-align: center;
+}
+.post .post_attachment {
+    color: #4f4f4f;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
+}
+.post .post_detail {
+    font-size: 0.8em;
+    min-height: 15em;
+}
+
+.post .post_reply {
+    font-size: 0.6em;
+}
+.post_reply .reply {
+    border-bottom: dotted 1px #bbbbbb;
+    padding: 1em;
+}
+.post_reply .reply .reply_delete {
+    display: inline-flex;
+
+}
+.reply_delete input{
+    border: none;
+    background: none;
+}
+.reply_delete input:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.post_reply .input {
+    margin: 1em 1em 1em 1em;
+}
+.post_reply .paginate {
+    width: fit-content;
+    margin: auto;
+    font-size: 1em;
+}
+textarea{
+    width: 90%;
+}
+#reply_delete+label span{
+    margin-left: 15px;
+    font-size: .9em;
+    color: gray;
+}
+#reply_delete+label span:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+.submit_box{
+  width: 8%;
+  height: 81px;
+  display: inline-block;
+  float: right;
+}
+input.show{
+  display: inline-block;
+}
+input[name="comment_write_password_check"]{
+  width: 100%;
+  height: 20%;
+  padding: 0;
+}
+#comment_btn{
+    display: none;
+}
+#comment_btn+label div{
+    height: 80%;
+    line-height: 78px;
+    border: 0;
+    background-color: #eae1e1;
+    color: gray;
+    font-size: .75em;
+    font-weight: bold;
+}
+#comment_btn+label div:hover{
+    color: black;
+}
+.paginate .page_mid {
+    color: black;
+    text-decoration: none;
+}
+.input form{
+    display: block;
+}
+.btn_wrap{
+    margin-bottom: 10px;
+}
+.btn_wrap .btn{
+    width: 50px;
+    height: 32px;
+    box-sizing: border-box;
+}
+.btn_wrap .btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn_wrap .btn:hover a{
+    color: #096b9a;
+    transition: all .2s;
+}
+.post_detail.case p{
+  white-space: normal;
+}

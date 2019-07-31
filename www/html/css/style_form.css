@@ -1,0 +1,61 @@
+.ck-editor__editable{
+    min-height: 350px !important;
+}
+
+.input_form {
+    padding: 10px;
+    font-family: sans-serif;
+    overflow: hidden;
+    width: 100%;
+}
+.input_form tr{
+    height: 45px;
+}
+.input_form tr:nth-of-type(3){
+    height: 95px;
+}
+.input_form th {
+    width: 4em;
+    height: 2em;
+}
+.input_form td {
+    margin: 0;
+}
+.input_form td input{
+    width: 80%;
+    height: 2em;
+}
+.input_form td select{
+    height: 2em;
+}
+.input_form td textarea {
+    width: 90%;
+    box-sizing: border-box;
+}
+.input_form th head{
+    display: inline-block;
+}
+.input_form .sub_category, .board_password{
+    display: inline-block;
+    margin-left: 10px;
+}
+.input_form .sub_category, .board_password span{
+    font-weight: bold;
+}
+.input_form .board_password input{
+    width: 160px;
+    height: inherit;
+}
+.input_btn {
+    margin-top: 1em;
+    text-align: center;
+}
+.input_btn input {
+    color: #096b9a;
+    border: solid 1px #096b9a;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 0 5px 0 5px;
+}

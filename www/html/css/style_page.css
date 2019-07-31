@@ -1,0 +1,376 @@
+.aside-right{
+    background-color: #fff;
+}
+.page_main {
+    width: 93%;
+    position: relative;
+    margin: auto;
+}
+
+
+.top_area {
+    margin-top: 55px;
+    border-top: 1px solid #bbbbbb;
+}
+.post_type {
+    padding: 0 0 10px 0;
+}
+.post_type .field {
+    display: inline flex;
+    overflow: hidden;
+    padding: 10px 50px 0 50px;
+}
+.post_type .field:nth-of-type(2){
+    margin: 10px 0;
+}
+.post_type .field button{
+    background: 0;
+    border: 1px solid lightgray;
+    font-weight: bold;
+}
+.post_type .row {
+    width: 60%;
+    float: right;
+}
+.post_type .field .row a {
+    float: left;
+    width: 25%;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    border-right: solid 1px;
+}
+.post_type .newpost {
+    color: #096b9a;
+    text-decoration: none;
+    margin: 0 0 0 30px;
+    padding: 0 10px 0 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: solid 1px #096b9a;
+    border-radius: 5px;
+}
+.post_type input {
+    width: 20em;
+}
+.post_type form button {
+    cursor: pointer;
+}
+
+
+.content-area {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #6f6f6f;
+    border-bottom: 1px solid #6f6f6f;
+}
+
+/*Notice & Board View*/
+h1.head{
+    font-size: 1.5vw;
+    padding-left: 40px;
+}
+.list-table{
+    /* font-size: 1.15rem; */
+    font-size: 1.2vw;
+    color: #2f2f2f;
+    margin: auto;
+    text-align: center;
+}
+.list-table tr{
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 35px;
+}
+.list-table .pin_list_title, .list_title{
+    text-align: left;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    word-wrap:normal;
+    overflow:hidden;
+}
+.list-table a{
+    color:#4f4f4f;
+    text-decoration: none;
+}
+.list-table a:hover{
+    color:black;
+    font-weight: bold;
+}
+.list-table .pin_list_num{
+    color: #ff0000;
+}
+.pagination{
+    width: 100%;
+    display: table;
+    text-align: center;
+    margin: 15px 0;
+}
+.pagination a{
+    text-decoration: none;
+    color: #4f4f4f;
+    padding-right: 10px;
+}
+.pagination a:hover{
+    font-weight: bold;
+}
+.pagination .page_cur{
+    font-size: 25px;
+    color: #096b9a;
+    padding-right: 10px;
+}
+.pagination .page_num{
+    color: #2f2f2f;
+}
+
+/*Search page*/
+.content-area .search {
+    font-size: 24px;
+}
+.search .search_result {
+    margin: 0.5em;
+    padding: 1em;
+    border: solid 1px #7d7d7d;
+}
+.search .search_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #096b9a;
+}
+.search .search_list {
+    font-size: 0.7em;
+}
+.search .show_more {
+    display: block;
+    font: Arial;
+    font-size: 0.6em;
+    color: #4f4f4f;
+    padding-bottom: 20px;
+}
+
+
+/*Schedule*/
+.sort_area, .diaryContent{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.sort_area{
+  height: 30px;
+  margin-bottom: 10px;
+}
+.btn_area{
+  width: 60px;
+  height: 30px;
+}
+.btn_area button{
+  width: 24px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  background-color: white;
+  border: 1px solid lightgray;
+  color: #666666;
+  text-align: center;
+  vertical-align: center;
+  font-size: 0.6rem;
+}
+.btn_area .today{
+  width: 40px;
+  font-size: .7rem;
+  font-weight: bold;
+}
+.btn_area button:hover{
+  cursor: pointer;
+  background-color: #ebebeb;
+}
+.date_area{
+  height: 100%;
+  line-height: inherit;
+}
+.date_area select{
+  width: 100px;
+  height: inherit;
+}
+
+
+.diaryContent{  /*table*/
+    border-collapse: collapse;
+    position: relative;
+}
+.diaryContent th, .diaryContent td{
+    width: 13.8%;
+    display: table-cell;
+    font-size: 0.75rem;
+    border: 1px solid #e2e2e2;
+    border-spacing: 0;
+}
+.diaryContent th{
+    height: 20px;
+    padding: 10px 0 3px 0;
+    border-top: 2px solid #dbdbdb;
+    background-color: #f3f4f4;
+    text-align: center;
+    font-weight: bold;
+}
+.diaryContent td{
+    height: 90px;
+    padding: 2px 0;
+    border: 1px solid #e2e2e2;
+    vertical-align: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: break-all;
+}
+.diaryContent .listDay{
+    margin-left: 5px;
+    display: inline-block;
+}
+.bottom{
+    width: 90%;
+    height: 20px;
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
+.schedule_register_btn{
+    width: 150px;
+    height: 30px;
+    line-height: 20px;
+    font-size: .7em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    float: right;
+    text-align: center;
+}
+.schedule_register_btn:hover{
+  cursor:pointer;
+  background-color: #ededed;
+}
+
+
+/*Contact*/
+.professors {
+    width: 100%;
+}
+.professors .row {
+    display: inline-flex;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.professors .professor {
+    width: 50%;
+    display: inline-flex;
+    box-sizing: border-box;
+    padding: 5px;
+    border: solid 1px lightgrey;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.professors .professor .image_wrap{
+    width: 190px;
+}
+.professors .professor .image_wrap img {
+    width: 100%;
+    height: 100%;
+}
+.professors .professor .info {
+    width: 80%;
+    display: block;
+    margin: 0 0 0 10px;
+    padding-bottom: 10px;
+}
+.professors .professor .info .detail{
+    border: 1px solid rgb(199,199,199);
+    background-color: #e4e4e4;
+    padding: .5em;
+    font-weight: bold;
+    font-size: 1vw;
+}
+.professors .professor .info a{
+    color: black;
+    text-decoration: none;
+}
+.professors .professor .info a:hover{
+    text-decoration: underline;
+}
+.professors .professor .info .detail i{
+    padding: .3em;
+    background-color: #1c1c1b;
+    font-size: 1.3em;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+}
+img.prof_email{
+  width: 50%;
+  margin-left: 5px;
+  line-height: 41px;
+  vertical-align: middle;
+}
+.uniAdmin_info{
+    height: 90px;
+    margin: auto;
+    border: 1px solid rgb(163, 163, 163);
+    background-color: white;
+}
+.uniAdmin_info .detail{
+    display: inline-block;
+    line-height: 92px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.2vw;
+}
+.uniAdmin_info .detail i{
+    color: white;
+    padding: 10px;
+    border: 1px solid #a8b4b8;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #a8b4b8;
+}
+.uniAdmin_info  .detail:nth-of-type(3) i{
+    /*세번째 요소 아이콘만 패딩 다르게*/
+    padding: 8px 10px;
+}
+
+/*Members*/
+.left_section{
+    width: 40%;
+    height: 450px;
+    display: inline-block;
+}
+.right_section{
+    width: 60%;
+    height: 450px;
+    float: right;
+}
+p.head{
+    margin-left: 2em;
+    font-size: 25px;
+    color: #096b9a;
+    font-weight: bolder;
+}
+.left_section .members_list{
+    margin-left: 2em;
+    list-style-type: square;
+    font-size: 18px;
+}
+.members_list li{
+    margin: 5px 0 5px 0;
+}
+.right_section .image_wrap{
+    width: 80%;
+    height: 360px;
+    margin: auto;
+}
+.right_section .image_wrap img{
+    width: 100%;
+}

@@ -1,0 +1,369 @@
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.font-red{
+    color: red;
+}
+.font-blue{
+    color: blue;
+}
+.row > .three{
+    /*grid*/
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+header {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid #efeded;
+}
+a:webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+header .top_wrap {
+    width: 80%;
+    height: 120px;
+    margin: auto;
+    position: relative;
+}
+.top_wrap .logo {
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+}
+
+
+nav {
+    float: right;
+    display: block;
+    position: relative;
+    margin: 0 8em 0 0;
+}
+nav a {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 2em;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #096b9a;
+    text-decoration: none;
+}
+nav a.active, nav a:hover {
+    border-bottom: 5px solid #096b9a;
+    padding-bottom: 5px;
+}
+
+
+header {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.aside-left {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.aside-right {
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+
+
+.login_box, .counter{
+    display: block;
+    width: 95%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: solid 1px lightgrey;
+    box-sizing: border-box;
+    background: white;
+    overflow: hidden;
+}
+.login_box a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #7d7d7d;
+}
+.login_box a:hover {
+    text-decoration: underline;
+}
+.login_input {
+    margin: 2px;
+}
+.login_input input {
+    font-family: sans-serif;
+    width: 98%;
+    height: 3em;
+    box-sizing: border-box;
+    margin: 2px;
+    border: solid 1px lightgrey;
+}
+.login_btn {
+    width: 100%;
+    height: 3em;
+    box-sizing: border-box;
+    margin: 5px 0 5px 0;
+    color: white;
+    background: #096b9a;
+    border: none;
+    border-radius: 5px;
+}
+.login_btn:hover {
+    cursor: pointer;
+    color: #096b9a;
+    background: white;
+    border: solid 1px #096b9a;
+    transition: all .2s;
+}
+.login_box .register_btns {
+    float: right;
+    padding-top: 5px;
+    font-size: 1vw;
+}
+.counter {
+    font-family: sans-serif;
+    font-size: 1.05vw;
+}
+.search {
+    width: 95%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.search input {
+    width: 80%;
+    height: 30px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+.search button {
+    height: 30px;
+    float: right;
+    border: 1px solid #096b9a;
+    font-size: 12px;
+    line-height: 13px;
+    color: #096b9a;
+    background-color: rgba(255,255,255, .9);
+    text-align: center;
+    cursor: pointer;
+    align-self: center;
+}
+.search button:hover{
+    background-color: #096b9a;
+    color: white;
+    transition: background .1s, color .1s
+}
+.language a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: grey;
+}
+
+
+.content {
+    overflow: hidden;
+    box-sizing: content-box;
+    padding: 20px 5em 10em 5em;
+    background-image: linear-gradient(transparent, transparent), url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    background-color: #f7f5f6;
+}
+
+
+.title {
+    width: 250px;
+    display: block;
+    padding: 10px 36px 0 36px;
+    margin-bottom: 5px;
+    border-top: 10px solid #096b9a;
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    background-color: #fefefe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.small_title {
+    font-size: 0.8rem;
+}
+
+
+.top-area {
+    overflow: hidden;
+}
+.bottom-area {
+    margin-top: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.photo {
+    float: left;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+.galleryContainer {
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    user-select: none;
+    box-shadow: 0px 0px 3px 1px #00000078;
+    box-sizing: border-box;
+}
+
+
+.box{
+    padding: 5px;
+    color: #fff;
+    background: #e7e7e5;
+    box-sizing: border-box;
+    border-right: 2px solid rgba(255,255,255, .5);
+}
+.box:last-of-type{
+    border-right: none;
+}
+.box_title{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    /* font-size: 20px; */
+    font-size: 1.4vw;
+    background-color: #096b9a;
+  }
+.box_title .button {
+    float: right;
+    border: none;
+    /* font-size: 15px */
+    font-size: 1.2vw;
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.box_type {
+    height: 30px;
+    font-size: 1.2vw;
+    margin: 10px 0;
+}
+.box_type ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.box_type ul li {
+    display: inline;
+}
+.box_type ul li a {
+    color: black;
+    text-decoration: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 0.8em;
+}
+.box_type ul li a.active {
+    font-weight: bold;
+}
+.box_main {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif, '돋움';
+    background-color: #f8f8f8;
+}
+.box_main article {
+    padding: 10px;
+    height: 220px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    word-wrap:normal;
+    overflow:hidden;
+}
+.single_post {
+    text-decoration: none;
+    color: black;
+}
+.single_post:hover {
+    text-decoration: underline;
+}
+
+.sort_area{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.sort_area{
+  height: 50px;
+  vertical-align: middle;
+}
+.date_area{
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.date_area select{
+  width: 80px;
+  height: 30px;
+}
+.date_area select:nth-of-type(2){
+    width: 50px;
+}
+.diaryContent{  /*table*/
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+    position: relative;
+}
+.diaryContent th, .diaryContent td{
+    width: 13.8%;
+    display: table-cell;
+    font-size: 0.75rem;
+    border: 1px solid #e2e2e2;
+    border-spacing: 0;
+}
+.diaryContent th{
+    height: 20px;
+    padding: 10px 0 3px 0;
+    border-top: 2px solid #dbdbdb;
+    background-color: #f3f4f4;
+    text-align: center;
+    font-weight: bold;
+}
+.diaryContent td{
+    height: 26px;
+    padding: 2px 0;
+    border: 1px solid #e2e2e2;
+    vertical-align: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: break-all;
+}
+.diaryContent .listDay{
+    margin-left: 5px;
+    display: inline-block;
+}
+.ck.ck-editor__editable_inline{
+  min-height: 500px;
+}
+footer {
+    background-color: #ededef;
+    border-top: 1px solid;
+    clear: both;
+    text-align: left;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
